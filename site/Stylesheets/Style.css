@@ -1,0 +1,68 @@
+/* Global */
+
+* {
+	box-sizing: border-box;
+	margin:0px;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 50px;
+	text-align:center;
+}
+
+.menuItem {
+	background-color: gray;
+	border: 1px solid black;
+	margin: 1%;
+    float: left;
+	
+}
+
+.menuTitle {
+	background-color: blue;
+	border: 1px solid black;
+		width: 30%;
+		float: right;	
+		text-align:center;
+}
+.description {
+		float: right;
+		padding:10px;
+		
+}
+
+
+/* Desktop */ 
+
+@media (min-width: 992px){
+	.menuItem {
+	width: 31%;
+    }
+}
+
+
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 991px){
+	.menuItem {
+	width: 48%;
+    }
+
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 767px){
+		.menuItem{
+	width: 100%;
+    }
+}
+
+
+
+
+	
