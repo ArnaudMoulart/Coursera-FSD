@@ -1,8 +1,8 @@
-/* Global */
 
 * {
 	box-sizing: border-box;
 	margin:0px;
+	padding: 0px;
 }
 
 h1 {
@@ -28,37 +28,42 @@ h1 {
 }
 .description {
 		float: right;
-		padding:10px;
+		padding:1%;
 		
 }
 
+#SushiTitle {
+	background-color: black;
+	color: white;
+}
+#BeefTitle {
+	background-color: green;
 
-/* Desktop */ 
+}
+#ChickenTitle {
+	background-color: yellow;
+
+}
 
 @media (min-width: 992px){
 	.menuItem {
 	width: 31%;
     }
+
 }
-
-
-
-/* Tablet */
 
 @media (min-width: 768px) and (max-width: 991px){
 	.menuItem {
 	width: 48%;
     }
-
+			.menuItem:last-of-type {
+    width: 98%;
+	}
 }
-
-
-
-/* Mobile */
 
 @media (max-width: 767px){
 		.menuItem{
-	width: 100%;
+	width: 98%;
     }
 }
 
